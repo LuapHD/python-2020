@@ -1,0 +1,8229 @@
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()                    ## Hier wird die nächste Zeile gelesen
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':                         ## Hier wird nach den (kleinen) "c"s gesucht
+                for char in line:                           ## Das ist ein Loop über alle Zeichen der Zeile
+            while line != '':                               ## Das ist ein Loop über Zeilen
+
+            fileAnzahlC = 0                                 ##  Das ist der Zähler für die c-Buchstaben im File
+            line = reader.readline()                        ## Hier wird die erste Zeile gelesen
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:                 ## Hier wird das File neu geöffnet, um die Zeilen Einzeln zum Zählen der "c"s zu loopen
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+anzahlC = 0                                                  ##  Das ist der Zähler für die Gesamtzahl c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe He    def Kopieren (self,copie):
+
+        self.copie = copie
+    def __init__(self,copie):
+
+class Copie :
+class Copie :
+
+    def __init__(self,copie):
+        self.copie = copie
+
+TestHe He    def Kopieren (self,copie):
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                                                  ##  Das ist der Zähler für die Gesamtzahl c-Buchstaben
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:                 ## Hier wird das File neu geöffnet, um die Zeilen Einzeln zum Zählen der "c"s zu loopen
+
+            ## c-Zeichen
+            line = reader.readline()                        ## Hier wird die erste Zeile gelesen
+            fileAnzahlC = 0                                 ##  Das ist der Zähler für die c-Buchstaben im File
+
+            while line != '':                               ## Das ist ein Loop über Zeilen
+                for char in line:                           ## Das ist ein Loop über alle Zeichen der Zeile
+                    if char == 'c':                         ## Hier wird nach den (kleinen) "c"s gesucht
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()                    ## Hier wird die nächste Zeile gelesen
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe HeTestHe Heclass Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+        lineNr += 1        line = reader.readline()
+        print(str(lineNr) + "\t" + line)
+    while line != '':  # The EOF char is an empty string
+    line = reader.readline()
+with open(filePath, 'r') as reader:
+countC = 0
+lineNr = 1
+
+
+
+print (allContent)
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':
+                for char in line:
+            while line != '':
+
+            print(line)
+            fileAnzahlC = 0
+            line = reader.readline()
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+allContent = []
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+TestHe HeTestHe Heclass Taschenrechner:
+class Taschenrechner:
+
+    wert : 0
+
+    def __init__(self):
+        self.wert = 0
+
+    def add(self, x):
+        self.wert = self.wert + x
+        return( self.wert )
+
+    def sub(self, x):
+        self.wert = self.wert - x
+        return ( self.wert )
+
+    def mult(self, x):
+        self.wert = self.wert * x
+        return ( self.wert )
+
+    def div(self, x):
+        self.wert = self.wert / x
+        return (self.wert)
+
+    def mod(self, x):
+        self.wert = self.wert % x
+        return (self.wert)
+
+    def get_value(self):
+        return self.wert
+
+    def reset_value (self):
+        self.wert = 0
+        return self.wert
+
+    def set_value (self, x):
+        return self.wert        self.wert = x
+from Taschenrechner import Taschenrechner
+
+t = Taschenrechner()
+
+print (t.get_value())
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+r = int(r)
+
+print (t.set_value(r))
+
+while 1 == 1:
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+
+    if oper == 'q':
+        quit('Ok')
+
+    z = input('Gib die zweite Zahl an: ')
+
+    z = int(z)
+
+    if oper == '+':
+        print(t.add(z))
+
+    elif oper == '-':
+        print(t.sub(z))
+
+    elif oper == '*':
+        print(t.mult(z))
+
+    elif oper == '/':
+        print(t.div(z))
+
+    elif oper == '%':
+        print(t.mod(z))
+
+
+print (t.get_value())
+#f = open ('Test' , 'r')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f1 = open ('Test2' , 'w')
+#f1.write ('He He')
+
+FilePath= "person.py"
+with open(FilePath, 'r') as reader:
+    print(reader.read())
+
+filepath= "personTest.py"
+with open(filepath, 'r') as reader:
+    print(reader.read())
+
+Filepath= "Taschenrechner.py"
+with open(Filepath, 'r') as reader:
+    print(reader.read())
+
+filePath= "Taschenrechner UnitTest.py"
+with open(filePath, 'r') as reader:
+    print(reader.read())
+
+print('person.py hat')
+print('')
+
+lineNr = 1
+with open(FilePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('Taschenrechner UnitTest.py hat')
+print('')
+
+lineNr = 1
+with open(filePath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+print('personTest.py hat')
+print('')
+
+lineNr = 1
+with open(filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+
+print('')
+print('Zeilen')
+
+
+print('Taschenrechner.py hat')
+print('')
+
+lineNr = 1
+with open(Filepath, 'r') as reader:
+   line = reader.readline()
+   while line != '':
+      print(str(lineNr) + "\t" + line)
+      line = reader.readline()
+      lineNr +=1
+print('')
+print('Zeilen')
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+msg = "Test"
+with open(filePath, 'w') as writer:
+    writer.write(msg)
+
+with open(filePath, 'a') as a_writer:
+    a_writer.write('')
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+print(lst)lst = os.listdir(path)
+from person import Person
+
+alex = Person("alex", 12)
+print(alex.toString())
+print(alex.get_name())
+print(alex.get_age())
+
+alex.set_age(21)
+print(alex.get_age())
+class Person:
+   age: 0
+   name: ""
+
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def get_name(self):
+      return self.name
+
+   def get_age(self):
+      return self.age
+
+   def set_age(self, age):
+      self.age = age
+
+   def toString(self):
+      return "name: " + self.name + ", age: " + str(self.age)
+##  Lese alle python Dateien in src Verzeichnis:
+##  - print(anzahl_zeilen)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_buchstabe_c)
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+
+import os
+
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+lst = os.listdir(path)
+##print(lst)
+
+target = 'AllFiles.txt'
+filePathTarget = path + target
+
+i = 0
+anzahlC = 0                  ##  Das ist der Zähler für die c-Buchstaben
+allContent = []
+
+for item in lst:
+
+    if item != '.idea' and item != 'venv':
+
+        filePath = path + item
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+            inhalt = reader.readlines()
+
+            ## Zeilenlänge
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            i += len(inhalt)
+
+            ## Inhalt kopieren
+
+            writer.writelines(reversed(inhalt))
+
+        with open(filePath, 'r') as reader:
+
+            ## c-Zeichen
+            line = reader.readline()
+            fileAnzahlC = 0
+            print(line)
+
+            while line != '':
+                for char in line:
+                    if char == 'c':
+                        fileAnzahlC += 1
+                        anzahlC += 1
+
+                line = reader.readline()
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+print (allContent)
+
+
+
+lineNr = 1
+countC = 0
+with open(filePath, 'r') as reader:
+    line = reader.readline()
+    while line != '':  # The EOF char is an empty string
+        print(str(lineNr) + "\t" + line)
+        lineNr += 1        line = reader.readline()
+print("Alle Files zusammen haben " + str(anzahlC) + " c-Zeichen")
+print("Alle Files zusammen sind " + str(i) + ' Zeilen lang.')
+
+            print("File " + item + " hat " + str(fileAnzahlC) + " c-Zeichen")
+
+                line = reader.readline()                    ## Hier wird die nächste Zeile gelesen
+
+                        anzahlC += 1
+                        fileAnzahlC += 1
+                    if char == 'c':                         ## Hier wird nach den (kleinen) "c"s gesucht
+                for char in line:                           ## Das ist ein Loop über alle Zeichen der Zeile
+            while line != '':                               ## Das ist ein Loop über Zeilen
+
+            fileAnzahlC = 0                                 ##  Das ist der Zähler für die c-Buchstaben im File
+            line = reader.readline()                        ## Hier wird die erste Zeile gelesen
+            ## c-Zeichen
+
+        with open(filePath, 'r') as reader:                 ## Hier wird das File neu geöffnet, um die Zeilen Einzeln zum Zählen der "c"s zu loopen
+
+            writer.writelines(reversed(inhalt))
+
+            ## Inhalt kopieren
+
+            i += len(inhalt)
+            print("File " + item + " ist " +  str(len(inhalt)) + " Zeilen lang")
+            ## Zeilenlänge
+
+            inhalt = reader.readlines()
+             ## Alle Zeilen um die Zeilenlängen zu bestimmen
+
+        with open(filePath, 'r') as reader, open(filePathTarget, "a+") as writer:
+
+        filePath = path + item
+
+    if item != '.idea' and item != 'venv':
+
+for item in lst:
+
+anzahlC = 0                                                  ##  Das ist der Zähler für die Gesamtzahl c-Buchstaben
+i = 0
+
+filePathTarget = path + target
+target = 'AllFiles.txt'
+
+##print(lst)
+lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+##  - Implementiere eine Class copy, die Datei a nach Datei b kopiert
+##  - print(anzahl_buchstabe_c)
+##  - Erzeuge nur eine Datei aus allen vorhandenen Dateien
+##  - print(anzahl_zeilen)
+##  Lese alle python Dateien in src Verzeichnis:
+        return "File: " + self.sourceFileName + " from directory: " + self.sourceFilePath + " copied to file: " + self.targetFileName + " in directory: " + self.stargetFilePath
+
+            writer.writelines(reversed(inhalt))
+            inhalt = reader.readlines()
+
+        with open(self.sourceFilePath, 'r') as reader, open(filePathTarget, "w") as writer:
+
+        targetFilePath = self.targetPath + self.targetFile
+        sourceFilePath = self.sourcePath + self.sourceFile
+
+    def doCopy(self):
+
+        return self.targetPath
+    def get_targetPath(self):
+
+        return self.targetName
+    def get_targetName(self):
+
+        return self.sourcePath
+    def get_sourcePath(self):
+
+        return self.sourceName
+    def get_sourceName(self):
+
+        self.targetPath = targetPath
+    def set_targetPath(self, targetPath):
+
+        self.targetName = targetName
+    def set_targetName(self, targetName):
+
+        self.sourcePath = sourcePath
+    def set_sourcePath(self, sourcePath):
+
+        self.sourceName = sourceName
+    def set_sourceName(self, sourceName):
+
+        self.targetPath = targetPath
+        self.targetName = targetName
+        self.sourcePath = sourcePath
+        self.sourceName = sourceName
+    def __init__(self, sourceName, sourcePath, targetName, targetPath):
+
+   targetPath: ""
+   targetName: ""
+   sourcePath: ""
+   sourceName: ""
+class CopyFile:
+      return "name: " + self.name + ", age: " + str(self.age)
+   def toString(self):
+
+      self.age = age
+   def set_age(self, age):
+
+      return self.age
+   def get_age(self):
+
+      return self.name
+   def get_name(self):
+
+      self.age = age
+      self.name = name
+   def __init__(self, name, age):
+
+   name: ""
+   age: 0
+class Person:
+print(alex.get_age())
+alex.set_age(21)
+
+print(alex.get_age())
+print(alex.get_name())
+print(alex.toString())
+alex = Person("alex", 12)
+
+from person import Person
+print(lst)lst = os.listdir(path)
+path = 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/'
+
+import os
+
+    a_writer.write('')
+with open(filePath, 'a') as a_writer:
+
+    writer.write(msg)
+with open(filePath, 'w') as writer:
+msg = "Test"
+
+filePath= 'C:/Users/Paul Kostial/PycharmProjects/Aufgabe18/Test'
+
+print('Zeilen')
+print('')
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(Filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner.py hat')
+
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filepath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('personTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(filePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('Taschenrechner UnitTest.py hat')
+
+print('Zeilen')
+print('')
+
+      lineNr +=1
+      line = reader.readline()
+      print(str(lineNr) + "\t" + line)
+   while line != '':
+   line = reader.readline()
+with open(FilePath, 'r') as reader:
+lineNr = 1
+
+print('')
+print('person.py hat')
+
+    print(reader.read())
+with open(filePath, 'r') as reader:
+filePath= "Taschenrechner UnitTest.py"
+
+    print(reader.read())
+with open(Filepath, 'r') as reader:
+Filepath= "Taschenrechner.py"
+
+    print(reader.read())
+with open(filepath, 'r') as reader:
+filepath= "personTest.py"
+
+    print(reader.read())
+with open(FilePath, 'r') as reader:
+FilePath= "person.py"
+
+#f1.write ('He He')
+#f1 = open ('Test2' , 'w')
+
+#print (f.readline(1))
+#print (f.readline(1))
+#print (f.readline(1))
+
+#f = open ('Test' , 'r')
+print (t.get_value())
+
+
+        print(t.mod(z))
+    elif oper == '%':
+
+        print(t.div(z))
+    elif oper == '/':
+
+        print(t.mult(z))
+    elif oper == '*':
+
+        print(t.sub(z))
+    elif oper == '-':
+
+        print(t.add(z))
+    if oper == '+':
+
+    z = int(z)
+
+    z = input('Gib die zweite Zahl an: ')
+
+        quit('Ok')
+    if oper == 'q':
+
+    oper = input('Gib deinen Rechenoperator an (+, -, *, / oder %) oder Quit (q): ')
+while 1 == 1:
+
+print (t.set_value(r))
+
+r = int(r)
+
+r = input ('Gib hier die erste Zahl ein: ')
+
+print (t.get_value())
+
+t = Taschenrechner()
+
+from Taschenrechner import Taschenrechner
+        return self.wert        self.wert = x
+    def set_value (self, x):
+
+        return self.wert
+        self.wert = 0
+    def reset_value (self):
+
+        return self.wert
+    def get_value(self):
+
+        return (self.wert)
+        self.wert = self.wert % x
+    def mod(self, x):
+
+        return (self.wert)
+        self.wert = self.wert / x
+    def div(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert * x
+    def mult(self, x):
+
+        return ( self.wert )
+        self.wert = self.wert - x
+    def sub(self, x):
+
+        return( self.wert )
+        self.wert = self.wert + x
+    def add(self, x):
+
+        self.wert = 0
+    def __init__(self):
+
+    wert : 0
+
+class Taschenrechner:
+TestHe He    def Kopieren (self,copie):
+
+        self.copie = copie
+    def __init__(self,copie):
+
+class Copie :
